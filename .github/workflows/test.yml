@@ -30,4 +30,3 @@ jobs:
           yarn test:types
           yarn lint
           yarn test --coverage
-          bash <(curl -s https://codecov.io/bash) 
