@@ -60,11 +60,6 @@ describe('Internal API', () => {
                 "isExtended": false,
                 "statusCode": 401
               },
-              "INV_TOKEN": {
-                "fileContent": "[null]",
-                "isExtended": false,
-                "statusCode": 401
-              },
               "ERR": {
                 "body": { success: false },
                 "fileContent": "{\n  \"#header\": {\n    \"Content-Type\": \"text/html; charset=UTF-8\"\n  },\n  \"#body\": {\n    \"success\": false\n  }\n}",
